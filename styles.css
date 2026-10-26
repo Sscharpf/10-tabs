@@ -1,5 +1,6 @@
 html {
     background-color: rgb(227, 180, 227);
+    font-family: "Capriola", sans-serif;
 }
 
 code {
@@ -8,10 +9,20 @@ code {
     border-radius: 10px;
 }
 
+p {
+    line-height: 25px;
+}
+
 .site-header {
     background-color: rgb(253, 153, 117);
     padding: 20px 20px 0 20px;
     border-radius: 20px 20px 0 0;
+    margin-top: 25px;
+}
+
+.header {
+    color: white;
+    font-size: larger;
 }
 
 .site-main {
@@ -22,6 +33,7 @@ code {
 
 .main-header {
     color: rgb(16, 128, 85);
+    font-size: larger;
 }
 
 .site-links {
@@ -31,6 +43,7 @@ code {
     display: flex;
     gap: 5px;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .site-links li {
